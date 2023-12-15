@@ -13,7 +13,7 @@ if(cluster.isMaster){
     http.createServer((req,res) => {
         ++count
         const message = `Worker: ${process.pid},count: ${count}`;
-        console.log(message);
+        /* console.log(message); */
         res.end(message)
     }).listen(3000);
 }

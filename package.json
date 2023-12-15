@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "apache": "^0.1.0",
+    "benchmark": "^2.1.4"
+  }
+}
